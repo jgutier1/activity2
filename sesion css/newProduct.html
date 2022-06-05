@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>New Product</title>
+  </head>
+  <body>
+    <!-- Sección: Menú vertical -->
+    <div class="UlContainer">
+    <ul>
+      <li><a  href="./index.html">Products</a></li>
+      <li><a href="#">Inventory</a></li>
+      <li><a class="active" href="./new_bike.html">New Product</a></li>
+    </ul>
+  </div>
+
+    <div class="product-container">
+      <div class="borde">
+        <form>
+
+          <div class="cuadro_new_product">
+            <h1>New Product</h3>
+          </div>
+
+          <div class="cuadro_name">
+
+            <label for="ProductName">Name: </label>
+            <br>
+            <input type="text" name="ProductName" id="ProductName">
+          </div>
+
+          <div class="cuadro_price">
+            <label for="ProductPrice">Price: </label>
+            <br>
+            <input type="number" name="ProductPrice" id="ProductPrice" min="0">
+          </div>
+
+          <div class="cuadro_inventory">
+            <label for="ProductInventory">Invetory: </label>
+            <br>
+            <input type="number" name="ProductInventory" id="ProductInventory" min="0">
+          </div>
+
+          <div class="cuadro_botton">
+            <button>Create product</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
